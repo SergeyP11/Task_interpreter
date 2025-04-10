@@ -106,7 +106,6 @@ def process_instructions(filename):
     functions.clear()
 
 def main():
-    """Главная функция для запуска интерпретатора."""
     if len(sys.argv) != 2:
         print("Использование: python interpreter.py <имя_файла>")
         sys.exit(1)
